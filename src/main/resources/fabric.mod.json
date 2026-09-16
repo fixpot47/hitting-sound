@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "hittingsound",
+  "version": "${version}",
+  "name": "Hitting Sound",
+  "description": "Plays a satisfying pling sound when you land a fully charged sword hit on another player.",
+  "authors": ["fixpot47"],
+  "contact": {
+    "homepage": "https://github.com/fixpot47/hitting-sound",
+    "sources": "https://github.com/fixpot47/hitting-sound",
+    "issues": "https://github.com/fixpot47/hitting-sound/issues"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.fixpot47.hittingsound.HittingSoundClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
