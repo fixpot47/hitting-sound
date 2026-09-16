@@ -38,7 +38,7 @@ public final class HittingSoundClient implements ClientModInitializer {
                 return InteractionResult.PASS;
             }
 
-            player.playSound(SoundEvents.NOTE_BLOCK_PLING, 0.75F, 1.6F);
+            player.playSound(SoundEvents.NOTE_BLOCK_PLING.value(), 0.75F, 1.6F);
             return InteractionResult.PASS;
         });
     }
