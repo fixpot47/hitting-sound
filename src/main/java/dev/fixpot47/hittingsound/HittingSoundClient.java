@@ -39,7 +39,7 @@ public final class HittingSoundClient implements ClientModInitializer {
                     entity.getX(),
                     entity.getY(),
                     entity.getZ(),
-                    SoundEvents.ARROW_HIT_PLAYER.value(),
+                    SoundEvents.ARROW_HIT_PLAYER,
                     SoundSource.PLAYERS,
                     1.0F,
                     1.0F
